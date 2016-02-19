@@ -18,12 +18,10 @@
         <activity
             android:name=".Resultado"
             android:label="@string/title_activity_resultado"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.SECOND" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:parentActivityName=".Calculadora" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Calculadora" />
         </activity>
     </application>
 

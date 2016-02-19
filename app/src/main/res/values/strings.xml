@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Calculadora</string>
     <string name="title_activity_resultado">Resultado</string>
+    <string name="number1">Número 1</string>
+    <string name="number2">Número 2</string>
+    <string name="plus">sumar</string>
+    <string name="minus">restar</string>
+    <string name="about">Acerca de</string>
 </resources>
